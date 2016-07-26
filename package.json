@@ -1,5 +1,5 @@
 {
-  "name": "list-dependencies",
+  "name": "@wabson/list-dependencies",
   "version": "0.1.0",
   "description": "List the dependencies present in the local project's package.json file",
   "main": "index.js",
