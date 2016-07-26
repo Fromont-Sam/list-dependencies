@@ -1,7 +1,7 @@
 var readJson = require('read-package-json')
 
 module.exports = function listDependencies(expr, callback) {
-    readJson('package.json', console.error, false, function (er, data) {
+    readJson('package.json', function (er, data) {
       if (er) {
         console.error("There was an error reading the package.json file")
         return
