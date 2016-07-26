@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "list-dependencies": "bin/list-dependencies.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wabson/list-dependencies.git"
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/wabson/list-dependencies/issues"
   },
-  "homepage": "https://github.com/wabson/list-dependencies#readme"
+  "homepage": "https://github.com/wabson/list-dependencies#readme",
+  "dependencies": {
+    "read-package-json": "^2.0.4"
+  }
 }
