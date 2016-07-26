@@ -1,0 +1,23 @@
+{
+  "name": "list-dependencies",
+  "version": "0.1.0",
+  "description": "List the dependencies present in the local project's package.json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wabson/list-dependencies.git"
+  },
+  "keywords": [
+    "npm",
+    "dependencies"
+  ],
+  "author": "Will Abson",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wabson/list-dependencies/issues"
+  },
+  "homepage": "https://github.com/wabson/list-dependencies#readme"
+}
